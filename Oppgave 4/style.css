@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+#guess>li {
+    padding: 5px 9px 0px 9px;
+}
+
+ul {
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+input {
+    font-size: 25px;
+    text-align: center;
+    width: 25px;
+}
+
+button {
+    font-size: inherit;
+    border: none;
+    background-color: rgb(48, 211, 15);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(63, 187, 38);
+}
