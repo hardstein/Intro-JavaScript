@@ -4,7 +4,7 @@ const text =
 
 const longestWord = () => {
   // TODO: Gjør om text til array eks. ['Baby', 'cliche']
-  newText = text.replace(/[.,!]+/g, ''); // Fjerner tegn (. , !) fra ord.
+  let newText = text.replace(/[.,!]+/g, ''); // Fjerner tegn (. , !) fra ord.
   let splitStr = newText.split(" ");
   // TODO: Velg første ord så du har noe å sammenlikne med
   let longestWord = splitStr[0]
